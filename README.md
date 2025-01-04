@@ -160,13 +160,7 @@ If you encounter missing dependencies, ensure that all system dependencies are i
 - [NumPy](https://numpy.org/) for efficient numerical operations.
 ```
 
-### Key Points in the README:
 
-1. **Installation Instructions**: The setup includes cloning the repo, setting up a virtual environment, installing dependencies, and installing RNNoise.
-2. **Environment Setup**: Detailed steps for setting up RNNoise on Linux and Windows.
-3. **File Path Adjustment**: The user is instructed to adjust the RNNoise file path in the code.
-4. **Usage Instructions**: Clear steps on how to run the program and what files will be generated.
-5. **Troubleshooting**: Guidance on common issues such as missing dependencies or library paths.
 
 
 
