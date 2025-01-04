@@ -44,7 +44,7 @@ def create_wav_from_raw(raw_file, wav_file, sample_rate, channels):
 
 # Load RNNoise library
 # Ensure the path is correctly formatted and accessible
-rnnoise = ctypes.cdll.LoadLibrary("/home/shreyas_03/rnnoise/.libs/librnnoise.so")
+rnnoise = ctypes.cdll.LoadLibrary("provide path to librnnoise.so here")
 rnnoise.rnnoise_create.restype = ctypes.c_void_p
 rnnoise.rnnoise_process_frame.argtypes = [ctypes.c_void_p, ctypes.POINTER(ctypes.c_float), ctypes.POINTER(ctypes.c_float)]
 rnnoise.rnnoise_destroy.argtypes = [ctypes.c_void_p]
