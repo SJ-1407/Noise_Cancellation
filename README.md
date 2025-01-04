@@ -158,7 +158,7 @@ If you encounter missing dependencies, ensure that all system dependencies are i
 - [RNNoise](https://github.com/xiph/rnnoise) for the noise reduction algorithm.
 - [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/) for capturing audio from the microphone.
 - [NumPy](https://numpy.org/) for efficient numerical operations.
-```
+
 
 
 
