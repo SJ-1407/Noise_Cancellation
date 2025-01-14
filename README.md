@@ -111,7 +111,7 @@ Ensure the path to the `librnnoise.so` (or `librnnoise.dll` for Windows) file is
 Once you have set up the environment and installed the dependencies, you can capture audio from your microphone and process it by running the Python script:
 
 ```bash
-python3 audio_processing.py
+python3 main.py
 ```
 
 This will:
